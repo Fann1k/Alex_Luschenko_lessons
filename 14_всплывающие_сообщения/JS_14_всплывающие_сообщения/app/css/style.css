@@ -1,0 +1,17 @@
+#success-button, #info-button, #danger-button {
+    background-color: #28a745;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    color: #fff;
+}
+
+#info-button {
+    background-color: #17a2b8;
+}
+
+#danger-button {
+    background-color: #dc3545;
+
+}

@@ -1,0 +1,32 @@
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.manually {
+    width: 370px;
+    height: 470px;
+    margin: 30px 10px;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
+
+.form-block {
+    width: 370px;
+    height: 470px;
+    margin: 30px 10px;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
+
+input {
+    margin: 0 0  20px 10px;
+}
+
+#send-form {
+    padding: 15px;
+    margin-left: 345px;
+}

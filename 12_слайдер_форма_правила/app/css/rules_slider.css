@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.block-modal-test {
+    width: 240px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.form-slider {
+    width: 480px;
+    height: 350px;
+}
+
+.slider-right, .slider-left {
+    width: 50%;
+    height: 350px;
+    float: left;
+    padding: 15px;
+    margin: 0;
+    transition: all ease 1s;
+}
+
+.slider-right {
+    overflow-y: scroll;
+    margin-left: 0;
+}
+
+.read-rules {
+    cursor: pointer;
+    color: lightskyblue;
+    padding-bottom: 10px;
+}
+
+.rules-back {
+    cursor: pointer;
+    color: lightblue;
+    padding-bottom: 10px;
+}
+
+.read-rules:hover {
+    color: lightpink;
+}
+
+.rules-back:hover {
+    color: lightpink;
+}

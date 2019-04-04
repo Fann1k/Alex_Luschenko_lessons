@@ -1,0 +1,19 @@
+.block {
+    width: 150px;
+    height: 150px;
+    background: bisque;
+    margin: 50px;
+    float: left;
+}
+
+.folder {
+    border: 1px solid black;
+}
+
+.folder img {
+    max-width: 100%;
+}
+
+.folder-open {
+    display: none;
+}

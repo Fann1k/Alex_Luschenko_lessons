@@ -1,0 +1,14 @@
+.chips {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.chips-block {
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    right: 50px;
+}

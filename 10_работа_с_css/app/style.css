@@ -1,0 +1,23 @@
+.block-1 {
+    width: 150px;
+    height: 250px;
+    background: bisque;
+    border: 2px solid #666;
+    margin: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+
+p {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    position: absolute;
+    left: 65px;
+    top: 340px;
+}

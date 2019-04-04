@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form>
+        <div class="manually">
+            <p><b>Значение можно получить вручную и через serialize</b></p>
+            <p>Select</p>
+            <select name="test-select" id="select-1">
+                <option value="0">Получить значение из списка</option>
+                <option value="1">Первый элемент</option>
+                <option value="2">Второй элемент</option>
+                <option value="3">Третий элемент</option>
+            </select>
+
+            <p>Radio</p>
+            <p><input type="radio" value="sit" name="test-radio" checked>сидя</p>
+            <p><input type="radio" value="stand" name="test-radio">стоя</p>
+            <p><input type="radio" value="on_roof" name="test-radio">на крыше</p>
+            <button class="push-radio">Получить значение radio</button>
+        </div>
+
+        <div class="form-block">
+            <p><b>Значение можно получить только через serialize</b></p>
+            <p>Text <input type="text" name="test-text"></p>
+
+            <p>Password <input type="password" name="test-password"></p>
+
+            <p> Range <input type="range" name="test-range" max="300" class="range"></p>
+
+            <p>Date <input type="date" name="test-date"></p>
+
+            <p>Color<input type="color" name="test-color"></p>
+
+            <p><label for="checkbox-input1"> Checkbox 1</label>
+                <input type="checkbox" class="checkbox-input" id="checkbox-input1" value="1" name="test-checkbox"></p>
+
+            <p><label for="checkbox-input2"> Checkbox 2</label>
+                <input type="checkbox" class="checkbox-input" id="checkbox-input2" value="2" name="test-checkbox"></p>
+        </div>
+        <div class="clearfix"></div>
+        <!-- ------------------------------------------ -->
+        <p><input type="submit" id="send-form" value="Получить все значения"></p>
+
+    </form>
+
+    <script src="js/serialize.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
