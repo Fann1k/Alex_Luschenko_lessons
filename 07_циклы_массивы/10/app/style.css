@@ -1,0 +1,11 @@
+div {
+    margin: 30px;
+    width: 900px;
+    word-wrap: break-word;
+    line-height: 2;
+}
+
+#output {
+    font-weight: bold;
+    margin-left: 30px;
+}
