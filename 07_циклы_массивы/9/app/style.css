@@ -4,3 +4,7 @@ div {
     word-wrap: break-word;
     line-height: 2;
 }
+
+p {
+    margin: 30px;
+}
