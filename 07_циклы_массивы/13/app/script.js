@@ -7,3 +7,5 @@ document.querySelector('button').addEventListener('click', function () {
     arr.unshift(arr.pop());
     document.querySelector('#output').innerText = arr;
 });
+
+console.log(arr.length);

@@ -1,0 +1,54 @@
+/* .pt-10 {
+    padding-top: 10px;
+} */
+
+.block-modal-test {
+    width: 430px;
+    /* height: 550px; */
+    overflow: hidden;
+}
+
+.form-slider {
+    width: 940px;
+    height: inherit;
+}
+
+.slider-right, .slider-left {
+    width: 50%;
+    height: 550px;
+    float: left;
+    padding: 15px 15px 15px 25px;
+    margin: 0;
+    transition: all ease 1s;
+}
+
+.slider-right {
+    overflow-y: scroll;
+    margin-left: 0;
+    padding: 15px 15px 15px 35px;
+}
+
+.read-rules {
+    cursor: pointer;
+    color: lightskyblue;
+    padding-bottom: 10px;
+}
+
+.rules-back {
+    margin: 0;
+    cursor: pointer;
+    color: lightblue;
+    padding-bottom: 10px;
+}
+
+.read-rules:hover {
+    color: lightpink;
+}
+
+.rules-back:hover {
+    color: lightpink;
+}
+
+.arrow-back {
+    margin-top: 5px;
+}

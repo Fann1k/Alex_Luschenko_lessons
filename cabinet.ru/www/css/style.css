@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+#visibility-icon, #visibility-icon1, #visibility-icon2 {
+    cursor: pointer;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.site-title {
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+
+.modal-show, .modal-show-login {
+    width: 250px;
+    height: 125px;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
